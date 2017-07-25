@@ -10,7 +10,7 @@ let highScore = {
     name: "",
     score: ""
 }
-let seconds = 5;
+let seconds = 10;
 let display = document.getElementsByClassName("stopper")[0];
 let t;
 const inputField = document.getElementsByClassName('recorderSave')[0];
@@ -50,7 +50,7 @@ function reset() {
     }
     onOff = 0;
     switchCounter = 0;
-    seconds = 5;
+    seconds = 10;
     display.innerHTML = "10 másodperc";
     newGame.innerHTML = "";
 }
